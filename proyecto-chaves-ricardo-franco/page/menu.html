@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>menú</title>
+     <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
      <!--css-->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -24,32 +26,41 @@
         </nav>
     </header>
    <main>
-    <h1>Nuestra carta</h1>
-    <div class="item-menu">
-        <img src="../medios/imagen-wok.png" alt="imagen de wok" class="img-platos">
-        <div>
-            <h2>Wok</h2>
-            <p>Salteado de frutos de mar, con vegetales, arroz y salsa de soja</p>
-        </div>
-    </div>
-    <div class="item-menu">
-        <img src="../medios/imagen-ramen.png" alt="imagen de ramen" class="img-platos">
-        <div>
-            <h2>Ramen</h2>
-            <p>Fideos de ramen con caldo de vegetales y bacon</p>
-        </div>
+  <h1 class="text-center">Nuestra carta</h1>
+
+  <div class="container mt-4">
+    <div class="row mb-4 align-items-center">
+      <div class="col-md-6">
+        <img class="img-fluid" src="../medios/imagen-wok.png" alt="imagen de wok">
+      </div>
+      <div class="col-md-6">
+        <h2>Wok</h2>
+        <p>Salteado de frutos de mar, con vegetales, arroz y salsa de soja.</p>
+      </div>
     </div>
 
-    <div class="item-menu">
-        <img src="../medios/imagen-dumpling.png" alt="imagen de dumpling" class="img-platos">
-        <div>
-            <h2>Dumpling</h2>
-            <p>Vegetales y cerdo envueltos con masa cocinada al vapor</p>
-        </div>
+    <div class="row mb-4 align-items-center">
+      <div class="col-md-6">
+        <img class="img-fluid" src="../medios/imagen-ramen.png" alt="imagen de ramen">
+      </div>
+      <div class="col-md-6">
+        <h2>Ramen</h2>
+        <p>Fideos de ramen con caldo de vegetales y bacon.</p>
+      </div>
     </div>
+
+    <div class="row mb-4 align-items-center">
+      <div class="col-md-6">
+        <img class="img-fluid" src="../medios/imagen-dumpling.png" alt="imagen de dumpling">
+      </div>
+      <div class="col-md-6">
+        <h2>Dumpling</h2>
+        <p>Vegetales y cerdo envueltos con masa cocinada al vapor.</p>
+      </div>
+    </div>
+  </div>
 </main>
-
-    <footer>
+   <footer>
         <!--redes sociale-->
         <h2> Encontranos en </h2>
         <img src="../medios/imagen-facebook.png" alt="imagen pagina de facebook">
