@@ -1,0 +1,190 @@
+/* -----------------------------------
+   paleta de colores:
+   Azul: #004C99
+   Rojo: #FF2E2E
+   Celeste:#00CCAA
+   Amarillo:#FFD369
+   Negro:#000000
+------------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    background-color: #004C99;
+    font-family: "Bangers", system-ui;
+    color: #00CCAA;
+    overflow-x: hidden;
+}
+
+/* enlaces */
+a {
+    color: #FFD369;
+    text-decoration: none;
+}
+
+/* títulos */
+h1 {
+    color: #FF2E2E;
+    text-shadow: 1px 1px 0 #000000;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1.5rem;
+}
+
+h2 {
+    color: #FF2E2E;
+    text-shadow: 1px 1px 0 #000000;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* subtítulo (ej: Takeaway) */
+h3 {
+    text-shadow: 2px 2px 0px black;
+}
+
+/* párrafo */
+p {
+    color: #00CCAA;
+    text-align: center;
+    margin: 1rem;
+    text-shadow: 1px 1px 0 #000000;
+}
+
+/* header */
+header img {
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+
+header ul {
+    list-style: none;
+}
+
+/* navbar */
+.padreflex {
+    background-color: #000000;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.padreflex a {
+    color: #FFD369;
+}
+
+/* galería de platos */
+.platos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.img-platos {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .platos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004C99;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* reservas */
+.reserva {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    max-width: 100%;
+}
+
+.formulario-reserva {
+    max-width: 400px;
+}
+
+.mapa {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+/* delivery */
+.apps {
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.app {
+    text-align: center;
+}
+
+.app img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.app p {
+    color: #FFD369;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* menú */
+.item-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    flex-wrap: wrap;
+}
+
+.item-menu h2 {
+    color: #FF2E2E;
+    text-shadow: 2px 2px #000000;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.item-menu p {
+    color: #00CCAA;
+    text-shadow: 1px 1px #000000;
+    font-size: 1.2rem;
+}
